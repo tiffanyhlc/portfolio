@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Alte Haas Grotesk';
+    src: url('../fonts/AlteHaasGroteskRegular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Alte Haas Grotesk';
+    src: url('../fonts/AlteHaasGroteskBold.ttf');
+    font-weight: 700;
+  }
+  :root {
+    --bg: #10121A;
+    --text: #EEE9F5;
+    --accent: #F2B66B;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Alte Haas Grotesk', sans-serif;
+  }
