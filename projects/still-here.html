@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>It's Not Just Getting Old · Tiffany Chung</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=IBM+Plex+Mono:wght@400&display=swap">
+
+  <!-- Shared site styles first, then styles just for this page -->
+  <!-- "../" means "go up one folder", because this file lives inside projects/ -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/still-here.css">
+</head>
+<body class="still-here">
+
+  <!-- ===== TOP BAR ===== -->
+  <header class="mast">
+    <div class="wrap">
+      <a class="mono-mark" href="../index.html" aria-label="Back to home">T.C.</a>
+      <nav aria-label="Sections">
+        <a href="#story">Story</a>
+        <a href="#myth">The myth</a>
+        <a href="#questions">Questions</a>
+        <a href="#findings">Findings</a>
+        <a href="#help">What helps</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="sh-hero">
+      <div class="wrap">
+        <p class="kicker fade">Memory loss &amp; mental health · A data story</p>
+        <!-- Some words are dimmed on purpose, like a memory fading -->
+        <h1 class="sh-title" aria-label="It's not just getting old.">
+          <span>It's</span> <span class="dim-1">not</span> <span class="dim-2">just</span>
+          <span class="dim-1">getting</span> <em>old.</em>
+        </h1>
+        <p class="sh-dek fade">What families miss about memory loss, and the quiet grief of loving someone who is still here.</p>
+      </div>
+    </section>
+
+    <!-- ===== GOOD DAYS / HARD DAYS ===== -->
+    <div class="wrap">
+      <div class="days">
+        <div class="card day rv">
+          <p class="kicker">On good days</p>
+          <p class="day-line">They remember your name.</p>
+        </div>
+        <!-- Hover (or tap) the hard-days card and the words come back into focus -->
+        <div class="card day day-hard rv" tabindex="0">
+          <p class="kicker kicker-mute">On hard days</p>
+          <p class="day-line blur" aria-label="They remember your name, but not today.">They remember your name.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== 01 WHY THIS PROJECT ===== -->
+    <section id="story" class="sh-section">
+      <div class="wrap">
+        <header class="sh-head rv">
+          <p class="sh-num">01 — Why this project</p>
+          <h2>There's more than one way to <em>lose someone.</em></h2>
+        </header>
+
+        <div class="sh-story">
+          <!-- PHOTOS: to use your own, replace each placeholder <div> with an image, e.g.
+               <img class="photo-main" src="../images/family.jpg" alt="Describe the photo">
+               <img class="photo-small" src="../images/keepsake.jpg" alt="Describe the photo"> -->
+          <div class="photos rv">
+            <div class="photo-glow" aria-hidden="true"></div>
+            <div class="photo-main placeholder">[Photo: an old family photo, softly faded]</div>
+            <div class="photo-small placeholder">[Photo: hands or a keepsake]</div>
+          </div>
+
+          <div class="story-text rv">
+            <p>With my grandma, I watched dementia slowly take her memories before I lost her. With my auntie, I'm learning a different kind of grief: missing someone who is still right here.</p>
+            <p>She still knows me, but the moments we share don't always stay with her. So I try to hold onto them.</p>
+            <p>I made this project for both of them, and for every family living with memory loss.</p>
+            <p class="sign">— Tiffany</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 02 THE MYTH ===== -->
+    <section id="myth" class="sh-section">
+      <div class="wrap">
+        <div class="panel rv">
+          <header class="sh-head">
+            <p class="sh-num">02 — The myth</p>
+            <h2 class="italic">"Everyone loses their memory when they get old."</h2>
+          </header>
+          <p class="panel-lead">Forgetting a name or misplacing keys is normal aging. Dementia is a disease, and most older adults never develop it. But because so many people believe it's normal, early signs get brushed off, help comes late, and caregivers carry it alone.</p>
+          <div class="stats">
+            <div class="stat"><b class="accent">1 in 9</b><span>Americans 65+ have Alzheimer's. Most don't.</span><small>Alzheimer's Association, 2026</small></div>
+            <div class="stat"><b>7.4M</b><span>Americans 65+ living with Alzheimer's</span><small>Alzheimer's Association, 2026</small></div>
+            <div class="stat"><b>~13M</b><span>unpaid family caregivers, giving 19B+ hours of care in 2025</span><small>Alzheimer's Association, 2026</small></div>
+            <div class="stat"><b>~45%</b><span>of dementia cases could potentially be prevented or delayed</span><small>Lancet Commission, 2024</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 03 QUESTIONS ===== -->
+    <section id="questions" class="sh-section">
+      <div class="wrap">
+        <header class="sh-head rv">
+          <p class="sh-num">03 — What I'm asking</p>
+          <h2>Four questions</h2>
+        </header>
+        <div class="q-grid">
+          <div class="q-card rv"><span class="q-num">01</span><p>If memory loss were just aging, rates would look the same everywhere. Do they differ across Washington counties?</p></div>
+          <div class="q-card rv"><span class="q-num">02</span><p>How many people notice their memory changing but never tell a doctor?</p></div>
+          <div class="q-card rv"><span class="q-num">03</span><p>Where are families farthest from memory specialists and dementia care?</p></div>
+          <div class="q-card rv"><span class="q-num">04</span><p>What does it cost caregivers, in stress, sleep, and grief, to love someone who is still here?</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 04 THE DATA ===== -->
+    <section id="data" class="sh-section">
+      <div class="wrap">
+        <header class="sh-head rv">
+          <p class="sh-num">04 — The data</p>
+          <h2>Public records, plus voices</h2>
+        </header>
+        <div class="data-grid">
+          <ul class="sources">
+            <li class="rv"><b>Medicare chronic conditions</b><span>Dementia among older adults, by county and year</span><small>CMS</small></li>
+            <li class="rv"><b>Nursing home quality data</b><span>Staffing, inspections, and care measures for every facility</span><small>CMS</small></li>
+            <li class="rv"><b>Healthy Aging data</b><span>Memory changes and caregiver distress, by state</span><small>CDC</small></li>
+            <li class="rv"><b>Provider registry</b><span>Memory specialists and geriatric care by location</span><small>NPPES</small></li>
+            <li class="rv"><b>"Still Here" survey</b><span>Anonymous stories from people who love someone with memory loss</span><small>Original</small></li>
+          </ul>
+          <div class="code-card rv">
+            <p class="kicker">Example query</p>
+<pre><code>SELECT county,
+       ROUND(100.0 * dementia_count
+             / beneficiaries, 1) AS pct_dementia
+FROM   medicare_conditions
+WHERE  state = 'WA'
+ORDER BY pct_dementia DESC
+LIMIT  10;</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 05 FINDINGS =====
+         Fill these in after your analysis. For each finding:
+         1. Replace the chart placeholder with your chart image:
+            <img src="../images/finding-1.png" alt="Describe what the chart shows">
+         2. Replace the [bracketed] headline and sentence with what you found. -->
+    <section id="findings" class="sh-section">
+      <div class="wrap">
+        <header class="sh-head rv">
+          <p class="sh-num">05 — What the data shows</p>
+          <h2>Findings</h2>
+        </header>
+        <div class="findings">
+          <article class="finding rv">
+            <div class="chart placeholder">[Chart: dementia rates by Washington county]</div>
+            <p class="q-num">Finding 01</p>
+            <h3>[Your headline, e.g. "Rates vary more than age explains"]</h3>
+            <p>[One or two sentences on what you found and why it matters.]</p>
+          </article>
+          <article class="finding rv">
+            <div class="chart placeholder">[Chart: specialists per 10,000 older adults]</div>
+            <p class="q-num">Finding 02</p>
+            <h3>[Your headline]</h3>
+            <p>[One or two sentences on where families are farthest from care.]</p>
+          </article>
+          <article class="finding rv">
+            <div class="chart placeholder">[Chart: caregiver distress vs. non-caregivers]</div>
+            <p class="q-num">Finding 03</p>
+            <h3>[Your headline]</h3>
+            <p>[One or two sentences on the hidden cost to caregivers.]</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 06 CONCLUSION ===== -->
+    <section id="conclusion" class="sh-section">
+      <div class="wrap">
+        <div class="panel panel-center rv">
+          <p class="sh-num">06 — What it means</p>
+          <h2>[Your main takeaway in one sentence]</h2>
+          <p class="panel-lead">[Two or three sentences: what the data says about memory loss in Washington, who is most affected, and what families or communities could do differently.]</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SURVEY ===== -->
+    <section class="sh-section">
+      <div class="wrap">
+        <div class="survey rv">
+          <div>
+            <p class="sh-num">Still here</p>
+            <h2>Do you love someone <em>who is forgetting?</em></h2>
+            <p class="panel-lead">I'm collecting anonymous stories about the good days, the hard days, and what has helped. Answers are shared only as combined results.</p>
+          </div>
+          <a class="pill" href="[YOUR SURVEY LINK]">Share your story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHAT HELPS ===== -->
+    <section id="help" class="sh-section">
+      <div class="wrap">
+        <header class="sh-head rv">
+          <p class="sh-num">What helps</p>
+          <h2>You don't have to carry it alone</h2>
+        </header>
+        <div class="help-grid">
+          <div class="help rv"><h3>Notice it early</h3><p>Memory changes that affect daily life are worth a conversation with a doctor, for you or someone you love.</p></div>
+          <div class="help rv"><h3>Care for the caregiver</h3><p>Support groups and short breaks (respite care) help the people doing the caring stay well too.</p></div>
+          <div class="help rv"><h3>Call, any hour</h3><p>Alzheimer's Association 24/7 Helpline: <a href="tel:18002723900">1-800-272-3900</a></p></div>
+        </div>
+        <p class="note">This project shares population-level data, not medical advice. For your own health, talk with a doctor.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span class="label">© 2026 Tiffany Chung</span>
+      <a class="label" href="../index.html">← Back to home</a>
+      <a class="label" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>

@@ -1,16 +1,182 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiffany Chung</title>
+
+  <!-- Google Fonts: Bodoni Moda (headlines) + IBM Plex Mono (small labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=IBM+Plex+Mono:wght@400&display=swap">
+
+  <!-- Your styles (Alte Haas Grotesk is loaded inside this file) -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <link rel="stylesheet" href="css/style.css">
 
-    <h1>Tiffany</h1>
-    <p>Data stories about the pressures of starting adult life</p>
+  <!-- ===== TOP BAR ===== -->
+  <header class="mast">
+    <div class="wrap">
+      <a class="mono-mark" href="#top" aria-label="Back to top">T.C.</a>
+      <nav aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#story">Story</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-copy">
+          <div class="issue fade">
+            <span class="label">Issue Nº 01</span>
+            <span class="label">Fall / Winter 2026</span>
+            <span class="label">UX Research · Product</span>
+          </div>
+          <h1 class="name" id="heroName"><span>Tiffany</span><span><em>Chung</em></span></h1>
+          <p class="dek fade">I study how people meet new technology, <i>and turn what they say and do</i> into better products.</p>
+          <div class="hero-meta fade">
+            <div><span class="label">Based in</span><b>Kirkland, WA</b></div>
+            <div><span class="label">Focus</span><b>Research · Product · Data</b></div>
+            <div><span class="label">Status</span><b>Open to roles</b></div>
+          </div>
+        </div>
+
+        <figure class="portrait">
+          <div class="frame">
+            <img src="images/portrait.jpg" alt="Portrait of Tiffany Chung">
+            <span class="crop tl"></span><span class="crop tr"></span>
+            <span class="crop bl"></span><span class="crop br"></span>
+          </div>
+          <figcaption><span class="label">Cover</span><span class="label">Tiffany, 2026</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== SCROLLING SKILLS STRIP (the list repeats twice so the loop is seamless) ===== -->
+    <div class="ticker" aria-hidden="true">
+      <div class="track">
+        <span>Usability testing</span><span>Structured interviews</span><span>Survey design</span><span>Study moderation</span><span>Pre-release AR/VR</span><span>Data storytelling</span>
+        <span>Usability testing</span><span>Structured interviews</span><span>Survey design</span><span>Study moderation</span><span>Pre-release AR/VR</span><span>Data storytelling</span>
+      </div>
+    </div>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <div class="wrap">
+        <div class="sec-head"><span class="label">The Feature</span><span class="label">p. 02</span></div>
+        <div class="about-grid">
+          <p class="pull rv">The best products start with <em>watching closely</em> and asking the right question.</p>
+          <div class="about-text rv">
+            <p>I'm a researcher who works where people and unreleased technology meet. At AI Data Innovations, I've led around a thousand in-lab sessions on pre-release AR/VR products for a major tech client, from perception studies with professional musicians to daily analysis of session recordings that surfaces problems before launch.</p>
+            <p>I studied Informatics with a focus on data science at the University of Washington, graduating summa cum laude. On my own, I build data stories about real-life issues, starting with memory loss.</p>
+            <p>The thousand sessions taught me how people really meet new technology. Now I want to bring that understanding earlier, while a product is still being shaped and research can make the most difference.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NUMBERS ===== -->
+    <div class="wrap">
+      <div class="nums">
+        <div class="num rv"><b>~1,000</b><span>moderated sessions on pre-release AR/VR products</span></div>
+        <div class="num rv"><b>50<sup>+</sup></b><span>audio perception sessions with music professionals</span></div>
+        <div class="num rv"><b>3.95</b><span>GPA, B.S. Informatics, summa cum laude</span></div>
+      </div>
+    </div>
+
+    <!-- ===== FEATURED STORY (more stories get added here later) ===== -->
+    <section id="story">
+      <div class="wrap">
+        <div class="sec-head"><span class="label">Cover Story</span><span class="label">Data story · 01</span></div>
+        <a class="story rv" href="projects/still-here.html">
+          <span class="label">Memory loss &amp; mental health · In progress</span>
+          <h2 class="story-title">It's not just <em>getting old.</em></h2>
+          <p class="story-dek">What families miss about memory loss, and the quiet grief of loving someone who is still here. A personal data story built on public health records and the voices of families living it.</p>
+          <!-- On hover, the blurred line comes back into focus -->
+          <div class="story-memory" aria-hidden="true">
+            <p>On good days, they remember your name.</p>
+            <p class="blurred">On hard days, they remember your name.</p>
+          </div>
+          <span class="story-link">Read the story →</span>
+        </a>
+        <p class="more label">More stories in progress</p>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience">
+      <div class="wrap">
+        <div class="sec-head"><span class="label">Masthead</span><span class="label">Experience &amp; education</span></div>
+        <ul class="credits">
+          <li class="rv"><h3>AI Data Innovations</h3><span class="role">Research Assistant · Bellevue, WA</span><span class="when">Jul 2024 – Now</span></li>
+          <li class="rv"><h3><em>University of Washington</em></h3><span class="role">B.S. Informatics (Data Science), Information School</span><span class="when">2024</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+      <div class="wrap">
+        <div class="sec-head"><span class="label">Contents</span><span class="label">How I work</span></div>
+        <div class="skills">
+          <div class="skill-col rv"><h4>Research</h4><ul>
+            <li>Study moderation<span>in-lab</span></li>
+            <li>Usability testing<span>prototypes</span></li>
+            <li>Interviews<span>structured</span></li>
+            <li>Survey design<span>quant · qual</span></li>
+            <li>Synthesis<span>findings → recs</span></li>
+          </ul></div>
+          <div class="skill-col rv"><h4>Data</h4><ul>
+            <li>SQL<span>queries · schemas</span></li>
+            <li>A/B testing<span>content</span></li>
+            <li>Engagement analysis<span>ads · social</span></li>
+            <li>Python<span>basic</span></li>
+          </ul></div>
+          <div class="skill-col rv"><h4>Tools</h4><ul>
+            <li>Figma<span>prototyping</span></li>
+            <li>OptiTrack Motive<span>motion capture</span></li>
+            <li>Google Workspace<span>Sheets</span></li>
+            <li>HTML &amp; CSS<span>this site</span></li>
+          </ul></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <div class="sec-head"><span class="label">Colophon</span><span class="label">Say hello</span></div>
+        <h2 class="cta rv">Let's talk<em>people.</em></h2>
+        <div class="mail-row">
+          <span class="mail" id="mail">tiffhlchung@gmail.com</span>
+          <button class="btn" id="copy" type="button">Copy email</button>
+        </div>
+        <div class="links">
+          <a href="www.linkedin.com/in/tiffanyhlchung" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/tiffanyhlc" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="[YOUR RESUME LINK]">Resume ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span class="label">© 2026 Tiffany Chung</span>
+      <span class="label">Built with HTML &amp; CSS</span>
+      <a class="label" href="#top">Back to cover ↑</a>
+    </div>
+  </footer>
+
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <script src="js/main.js"></script>
 </body>
 </html>
